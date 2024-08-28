@@ -4,7 +4,15 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        SatoshiBlack: ['SatoshiBlack'],
+        SatoshiBold: ['SatoshiBold'],
+        SatoshiLight: ['SatoshiLight'],
+        SatoshiMedium: ['SatoshiMedium'],
+        SatoshiRegular: ['SatoshiRegular'],
+      },
+    },
   },
   plugins: [],
 };
